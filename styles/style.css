@@ -21,7 +21,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 0px 190px;
+    padding: 57px 174px;
 }
 
 .brand {
@@ -46,10 +46,12 @@ body {
     border-radius: 46px;
     box-sizing: border-box;
 }
+
 #others {
     display: flex;
     gap: 57px;
 }
+
 .nav-links {
     width: 465px;
     height: 46px;
@@ -63,4 +65,88 @@ body {
     border: 1px solid rgba(255, 255, 255, 0.1);
     border-radius: 39px;
     box-sizing: border-box;
+}
+
+/* Banner Style */
+#shape {
+    color: rgb(255, 255, 255);
+    font-family: var(--secondary-font);
+    font-size: 78px;
+    font-weight: 300;
+    text-align: left;
+    margin: 0px;
+}
+
+.banner-text-container {
+    width: 520px;
+    height: 439px;
+    margin-left: 174px;
+}
+
+.banner-heading {
+    color: rgb(255, 255, 255);
+    font-family: var(--primary-font);
+    font-size: 78px;
+    font-weight: 900;
+    line-height: 1.2;
+    text-align: left;
+    margin: 0px;
+}
+
+.banner-description {
+    color: rgba(255, 255, 255, 0.5);
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.5px;
+    text-align: left;
+    margin-top: 24px;
+}
+
+.btn-container {
+    margin-top: 28px;
+}
+
+.btn-primary {
+    width: 224px;
+    height: 54px;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 16px 40px 16px 40px;
+    border-radius: 42px;
+    background: rgb(230, 83, 60);
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    font-weight: 600;
+    text-align: center;
+    border: none;
+}
+
+.btn-secondary {
+    width: 224px;
+    height: 54px;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 16px 40px 16px 40px;
+    margin: 0px 14px;
+    color: rgb(255, 255, 255);
+    background-color: black;
+    font-size: 18px;
+    font-weight: 600;
+    text-align: center;
+    box-sizing: border-box;
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 42px;
+}
+
+.banner-information {
+    display: flex;
+    gap: 287px;
+}
+
+.banner-information img {
+    margin-top: -85px;
+    width: 349px;
+    height: 580px;
 }
