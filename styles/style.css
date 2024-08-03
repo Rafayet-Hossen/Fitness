@@ -5,6 +5,10 @@
     --secondary-font: "Dancing Script", cursive;
 }
 
+.display-flex {
+    display: flex;
+}
+
 body {
     background-color: black;
     color: white;
@@ -149,4 +153,128 @@ body {
     margin-top: -85px;
     width: 349px;
     height: 580px;
+}
+
+/* Change Habit Section Style */
+
+.change-habit {
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+}
+
+.habit-heading {
+    color: rgb(255, 255, 255);
+    font-size: 48px;
+    font-weight: 900;
+    line-height: 120%;
+    letter-spacing: 0%;
+    text-align: center;
+    margin: 0px;
+}
+
+.habit-description {
+    width: 671px;
+    height: 48px;
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.3px;
+    text-align: center;
+}
+
+.habit-type-container {
+    width: 231px;
+    height: 274px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.habit-type-container h4 {
+    margin-bottom: 0px;
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 120%;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.habit-type-container p {
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 0.3px;
+    text-align: center;
+}
+
+.habit-goal {
+    justify-content: space-evenly;
+    margin-left: 85px;
+    margin-right: 85px;
+    margin-top: 50px;
+}
+
+.habit-img {
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    justify-content: center;
+}
+
+/* RUnning extra mile section style */
+
+.running-motivation {
+    display: flex;
+    justify-content: space-between;
+    width: 1060px;
+    height: 371px;
+    margin:100px auto;
+    border-radius: 18px;
+    background: rgb(34, 34, 34);
+    
+}
+
+.running-motivation-text {
+    width: 443px;
+    height: 290px;
+    margin-top: 41px;
+    margin-left: 54px;
+    margin-bottom: 40px;
+}
+
+.running-motivation-text p {
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.3px;
+    text-align: left;
+}
+
+.running-motivation-text h1 {
+    color: rgb(255, 255, 255);
+    font-size: 48px;
+    font-weight: 900;
+    line-height: 120%;
+    letter-spacing: 0%;
+    text-align: left;
+    margin: 0px;
+}
+
+.running-image-container img {
+    width: 366px;
+    height: 312px;
+    border-radius: 18px;
+    margin-top: 30px;
+    margin-right: 32px;
+    margin-bottom: 29px;
+}
+
+.running-motivation-btn {
+    margin-top: 34px;
 }
