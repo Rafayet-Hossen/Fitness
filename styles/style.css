@@ -233,10 +233,10 @@ body {
     justify-content: space-between;
     width: 1060px;
     height: 371px;
-    margin:100px auto;
+    margin: 100px auto;
     border-radius: 18px;
     background: rgb(34, 34, 34);
-    
+
 }
 
 .running-motivation-text {
@@ -277,4 +277,91 @@ body {
 
 .running-motivation-btn {
     margin-top: 34px;
+}
+
+/* BMI Section Style */
+
+.bmi-text-container {
+    text-align: center;
+    width: 688px;
+    height: 119px;
+    margin: 80px auto;
+    text-align: left;
+}
+
+.bmi-heading {
+    font-size: 48px;
+    font-weight: 900;
+    margin: 0px;
+}
+
+.bmi-description {
+    font-size: 16px;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.50);
+}
+
+.bmi-container {
+    border: 1px solid #ccc;
+    display: flex;
+    justify-content: space-around;
+    width: 1520px;
+    height: 487px;
+    background-color: rgb(34, 34, 34);
+}
+
+.bmi-chart h3 {
+    color: rgb(255, 255, 255);
+    font-size: 28px;
+    font-weight: 900;
+    text-align: left;
+    margin-top: 52px;
+    margin-bottom: 52px;
+    margin-left: 187px;
+}
+
+.bmi-chart table {
+    border: 1px solid red;
+    width: 310px;
+    height: 216px;
+    border-collapse: collapse;
+    margin-left: 187px;
+}
+
+.bmi-chart tr,
+th,
+td {
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    padding: 8px 12px;
+    text-align: left;
+}
+
+.bmi-calculator form {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.bmi-calculator form input,
+.sex-selection {
+    width: 282.5px;
+    height: 48px;
+    padding: 12px 40px 12px 20px;
+    border: none;
+    border-radius: 8px;
+    margin: 0px 12px;
+    background: rgba(255, 255, 255, 0.1);
+    
+}
+
+.activity-selector {
+    width: 577px;
+    height: 48px;
+    padding: 12px 20px 12px 20px;
+    border: none;
+    color: rgba(255, 255, 255, 0.6);
+    font-size: 16px;
+    font-weight: 400;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.1);
+    appearance: none;
 }
