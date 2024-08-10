@@ -16,7 +16,7 @@ body {
 }
 
 .banner-container {
-    width: 1520px;
+    width: 1500px;
     height: 715px;
     background: linear-gradient(180.00deg, rgb(17, 17, 17), rgba(119, 119, 119, 0) 100%);
 }
@@ -305,7 +305,7 @@ body {
     border: 1px solid #ccc;
     display: flex;
     justify-content: space-around;
-    width: 1520px;
+    width: 1500px;
     height: 487px;
     background-color: rgb(34, 34, 34);
 }
@@ -425,4 +425,79 @@ td {
     margin-top: 4px;
     font-size: 14px;
     color: rgba(255, 255, 255, 0.5);
+}
+
+/* Footer Section Style */
+.footer-section {
+    width: 1500px;
+    height: 480px;
+    background: rgba(255, 255, 255, 0.1);
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 66px;
+    padding-top: 66px;
+}
+
+.brand-2 {
+    color: rgb(230, 83, 60);
+    font-size: 70px;
+    font-weight: 800;
+    text-align: left;
+    margin-top: 0px;
+    margin-bottom: 20px;
+}
+
+.brand-description {
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.3px;
+    text-align: left;
+}
+
+.fitness-footer {
+    width: 443px;
+    height: 176px;
+    
+}
+
+.get-started {
+    width: 181px;
+    height: 249px;
+}
+
+.get-started-heading {
+    color: rgb(255, 255, 255);
+    font-size: 32px;
+    font-weight: 700;
+    text-align: left;
+    margin-top: 0px;
+}
+
+.get-started p {
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 23px;
+    font-weight: 400;
+    text-align: left;
+    margin-top: 10px;
+    margin-bottom: 0px;
+}
+
+hr {
+    margin-top: 50px;
+    margin-bottom: 36px;
+    margin-left: 168px;
+    margin-right: 170px;
+    border: 2px solid rgba(255, 255, 255, 0.1);
+}
+
+.copy-right {
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 20px;
+    font-weight: 400;
+    text-align: center;
 }
