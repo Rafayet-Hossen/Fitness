@@ -16,8 +16,8 @@ body {
 }
 
 .banner-container {
-    width: 1500px;
-    height: 715px;
+    width: 93.75rem;
+    height: 44.68rem;
     background: linear-gradient(180.00deg, rgb(17, 17, 17), rgba(119, 119, 119, 0) 100%);
 }
 
@@ -25,12 +25,12 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 57px 174px;
+    padding: 3.56rem 10.87rem;
 }
 
 .brand {
     color: rgb(230, 83, 60);
-    font-size: 36px;
+    font-size: 2.25rem;
     font-weight: 800;
     line-height: 120%;
     letter-spacing: 0%;
@@ -39,35 +39,35 @@ body {
 }
 
 #home {
-    width: 102px;
-    height: 38px;
+    width: 6.375rem;
+    height: 2.375rem;
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    padding: 8px 20px 8px 20px;
+    padding: 0.5rem 1.25rem 0.5rem 1.25rem;
     background: rgb(230, 83, 60);
-    border-radius: 46px;
+    border-radius: 2.875rem;
     box-sizing: border-box;
 }
 
 #others {
     display: flex;
-    gap: 57px;
+    gap: 3.5625rem;
 }
 
 .nav-links {
-    width: 465px;
-    height: 46px;
+    width: 29.0625rem;
+    height: 2.875rem;
     display: flex;
     flex-direction: row;
     align-items: center;
-    gap: 55px;
-    padding: 4px;
-    margin: 0px 10px;
+    gap: 3.4375rem;
+    padding: 0.25rem;
+    margin: 0.0rem 0.625rem;
     box-sizing: border-box;
-    border: 1px solid rgba(255, 255, 255, 0.1);
-    border-radius: 39px;
+    border: 0.0625rem solid rgba(255, 255, 255, 0.1);
+    border-radius: 2.4375rem;
     box-sizing: border-box;
 }
 
@@ -75,84 +75,86 @@ body {
 #shape {
     color: rgb(255, 255, 255);
     font-family: var(--secondary-font);
-    font-size: 78px;
+    font-size: 4.875rem;
     font-weight: 300;
     text-align: left;
-    margin: 0px;
+    margin: 0.0rem;
 }
 
 .banner-text-container {
-    width: 520px;
-    height: 439px;
-    margin-left: 174px;
+    width: 32.5rem;
+    height: 27.4375rem;
+    margin-left: 10.875rem;
 }
 
 .banner-heading {
     color: rgb(255, 255, 255);
     font-family: var(--primary-font);
-    font-size: 78px;
+    font-size: 4.875rem;
     font-weight: 900;
     line-height: 1.2;
     text-align: left;
-    margin: 0px;
+    margin: 0.0rem;
 }
 
 .banner-description {
     color: rgba(255, 255, 255, 0.5);
     font-family: Inter;
-    font-size: 16px;
+    font-size: 1.0rem;
     font-weight: 400;
-    line-height: 24px;
-    letter-spacing: 0.5px;
+    line-height: 1.5rem;
+    letter-spacing: 0.03125rem;
     text-align: left;
-    margin-top: 24px;
+    margin-top: 1.5rem;
 }
 
 .btn-container {
-    margin-top: 28px;
+    margin-top: 1.75rem;
 }
 
 .btn-primary {
-    width: 224px;
-    height: 54px;
+    width: 14.0rem;
+    height: 3.375rem;
     justify-content: center;
     align-items: flex-start;
-    padding: 16px 40px 16px 40px;
-    border-radius: 42px;
+    padding: 1.0rem 2.5rem 1.0rem 2.5rem;
+    border-radius: 2.625rem;
     background: rgb(230, 83, 60);
     color: rgb(255, 255, 255);
-    font-size: 18px;
+    font-family: var(--primary-font);
+    font-size: 1.125rem;
     font-weight: 600;
     text-align: center;
     border: none;
 }
 
 .btn-secondary {
-    width: 224px;
-    height: 54px;
+    width: 14.0rem;
+    height: 3.375rem;
     justify-content: center;
     align-items: flex-start;
-    padding: 16px 40px 16px 40px;
-    margin: 0px 14px;
+    padding: 1.0rem 2.5rem 1.0rem 2.5rem;
+    margin: 0.0rem 0.875rem;
     color: rgb(255, 255, 255);
     background-color: black;
-    font-size: 18px;
+    font-family: var(--primary-font);
+    font-size: 1.125rem;
     font-weight: 600;
     text-align: center;
     box-sizing: border-box;
-    border: 2px solid rgb(255, 255, 255);
-    border-radius: 42px;
+    border: 0.125rem solid rgb(255, 255, 255);
+    border-radius: 2.625rem;
 }
 
 .banner-information {
     display: flex;
-    gap: 287px;
+    gap: 17.9375rem;
 }
 
 .banner-information img {
-    margin-top: -85px;
-    width: 349px;
-    height: 580px;
+    margin-top: -5.3125rem;
+    width: 21.8125rem;
+    height: 36.25rem;
 }
 
 /* Change Habit Section Style */
@@ -160,33 +162,33 @@ body {
 .change-habit {
     justify-content: center;
     align-items: center;
-    margin-top: 100px;
+    margin-top: 6.25rem;
 }
 
 .habit-heading {
     color: rgb(255, 255, 255);
-    font-size: 48px;
+    font-size: 3.0rem;
     font-weight: 900;
     line-height: 120%;
     letter-spacing: 0%;
     text-align: center;
-    margin: 0px;
+    margin: 0.0rem;
 }
 
 .habit-description {
-    width: 671px;
-    height: 48px;
+    width: 41.9375rem;
+    height: 3.0rem;
     color: rgba(255, 255, 255, 0.5);
-    font-size: 14px;
+    font-size: 0.875rem;
     font-weight: 400;
-    line-height: 24px;
-    letter-spacing: 0.3px;
+    line-height: 1.5rem;
+    letter-spacing: 0.01875rem;
     text-align: center;
 }
 
 .habit-type-container {
-    width: 231px;
-    height: 274px;
+    width: 14.4375rem;
+    height: 17.125rem;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -194,9 +196,9 @@ body {
 }
 
 .habit-type-container h4 {
-    margin-bottom: 0px;
+    margin-bottom: 0.0rem;
     color: rgb(255, 255, 255);
-    font-size: 18px;
+    font-size: 1.125rem;
     font-weight: 600;
     line-height: 120%;
     letter-spacing: 0%;
@@ -205,23 +207,23 @@ body {
 
 .habit-type-container p {
     color: rgba(255, 255, 255, 0.5);
-    font-size: 14px;
+    font-size: 0.875rem;
     font-weight: 400;
-    line-height: 18px;
-    letter-spacing: 0.3px;
+    line-height: 1.125rem;
+    letter-spacing: 0.01875rem;
     text-align: center;
 }
 
 .habit-goal {
     justify-content: space-evenly;
-    margin-left: 85px;
-    margin-right: 85px;
-    margin-top: 50px;
+    margin-left: 5.3125rem;
+    margin-right: 5.3125rem;
+    margin-top: 3.125rem;
 }
 
 .habit-img {
-    width: 180px;
-    height: 180px;
+    width: 11.25rem;
+    height: 11.25rem;
     border-radius: 50%;
     justify-content: center;
 }
@@ -231,72 +233,72 @@ body {
 .running-motivation {
     display: flex;
     justify-content: space-between;
-    width: 1060px;
-    height: 371px;
-    margin: 100px auto;
-    border-radius: 18px;
+    width: 66.25rem;
+    height: 23.1875rem;
+    margin: 6.25rem auto;
+    border-radius: 1.125rem;
     background: rgb(34, 34, 34);
 
 }
 
 .running-motivation-text {
-    width: 443px;
-    height: 290px;
-    margin-top: 41px;
-    margin-left: 54px;
-    margin-bottom: 40px;
+    width: 27.6875rem;
+    height: 18.125rem;
+    margin-top: 2.5625rem;
+    margin-left: 3.375rem;
+    margin-bottom: 2.5rem;
 }
 
 .running-motivation-text p {
     color: rgba(255, 255, 255, 0.5);
-    font-size: 14px;
+    font-size: 0.875rem;
     font-weight: 400;
-    line-height: 24px;
-    letter-spacing: 0.3px;
+    line-height: 1.5rem;
+    letter-spacing: 0.01875rem;
     text-align: left;
 }
 
 .running-motivation-text h1 {
     color: rgb(255, 255, 255);
-    font-size: 48px;
+    font-size: 3.0rem;
     font-weight: 900;
     line-height: 120%;
     letter-spacing: 0%;
     text-align: left;
-    margin: 0px;
+    margin: 0.0rem;
 }
 
 .running-image-container img {
-    width: 366px;
-    height: 312px;
-    border-radius: 18px;
-    margin-top: 30px;
-    margin-right: 32px;
-    margin-bottom: 29px;
+    width: 22.875rem;
+    height: 19.5rem;
+    border-radius: 1.125rem;
+    margin-top: 1.875rem;
+    margin-right: 2.0rem;
+    margin-bottom: 1.8125rem;
 }
 
 .running-motivation-btn {
-    margin-top: 34px;
+    margin-top: 2.125rem;
 }
 
 /* BMI Section Style */
 
 .bmi-text-container {
     text-align: center;
-    width: 688px;
-    height: 119px;
-    margin: 80px auto;
+    width: 43.0rem;
+    height: 7.4375rem;
+    margin: 5.0rem auto;
     text-align: left;
 }
 
 .bmi-heading {
-    font-size: 48px;
+    font-size: 3.0rem;
     font-weight: 900;
-    margin: 0px;
+    margin: 0.0rem;
 }
 
 .bmi-description {
-    font-size: 16px;
+    font-size: 1.0rem;
     font-weight: 400;
     color: rgba(255, 255, 255, 0.50);
 }
@@ -304,92 +306,103 @@ body {
 .bmi-container {
     display: flex;
     justify-content: space-evenly;
-    width: 1500px;
-    height: 487px;
+    width: 93.75rem;
+    height: 30.4375rem;
     background-color: rgb(34, 34, 34);
 }
 
 .bmi-chart h3 {
     color: rgb(255, 255, 255);
-    font-size: 28px;
+    font-size: 1.75rem;
     font-weight: 900;
     text-align: left;
-    margin-top: 52px;
-    margin-bottom: 52px;
+    margin-top: 3.25rem;
+    margin-bottom: 3.25rem;
 }
 
 .bmi-chart table {
-    border: 1px solid red;
-    width: 310px;
-    height: 216px;
+    border: 0.0625rem solid red;
+    width: 19.375rem;
+    height: 13.5rem;
     border-collapse: collapse;
+}
+
+td {
+    color: rgba(255, 255, 255, 0.5);
 }
 
 .bmi-chart tr,
 th,
 td {
-    border: 1px solid rgba(255, 255, 255, 0.1);
-    padding: 8px 12px;
+    border: 0.0625rem solid rgba(255, 255, 255, 0.1);
+    padding: 0.5rem 0.75rem;
     text-align: left;
 }
 
 .form-container {
     display: grid;
-    grid-template-columns: repeat(2,1fr);
-    gap: 12px;
-    margin-bottom: 34px;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 0.75rem;
+    margin-bottom: 2.125rem;
 }
 
 .bmi-calculator h1 {
     color: rgb(255, 255, 255);
-    font-size: 28px;
+    font-size: 1.75rem;
     font-weight: 900;
     text-align: left;
-    margin-top: 49px;
+    margin-top: 3.0625rem;
 }
 
 .bmi-calculator p {
-    width: 577px;
-    height: 48px;
+    width: 36.0625rem;
+    height: 3.0rem;
     color: rgba(255, 255, 255, 0.5);
-    font-size: 14px;
+    font-size: 0.875rem;
     font-weight: 400;
-    line-height: 24px;
-    letter-spacing: 0.3px;
+    line-height: 1.5rem;
+    letter-spacing: 0.01875rem;
     text-align: left;
-    margin-bottom: 34px;
+    margin-bottom: 2.125rem;
 }
 
 .activity-selector {
-    width: 577px;
-    height: 48px;
+    width: 36.0625rem;
+    height: 3.0rem;
     border: none;
     color: rgba(255, 255, 255, 0.6);
-    font-size: 16px;
+    font-family: var(--primary-font);
+    font-size: 1.0rem;
     font-weight: 400;
-    border-radius: 8px;
+    border-radius: 0.5rem;
     background: rgba(255, 255, 255, 0.1);
     text-align: left;
-    padding: 12px 20px 12px 20px;
-    border-right: 12px solid transparent;
+    padding: 0.75rem 1.25rem 0.75rem 1.25rem;
+    border-right: 0.75rem solid transparent;
     grid-column: span 2;
 }
 
 ::placeholder {
     color: rgba(255, 255, 255, 0.6);
+    font-family: var(--primary-font);
+}
+
+input[type="text"] {
+    font-family: var(--primary-font);
 }
 
 .sex-selection,
 .input-form {
     border: none;
     color: rgba(255, 255, 255, 0.6);
-    font-size: 16px;
+    font-size: 1.0rem;
     font-weight: 400;
-    border-radius: 8px;
+    border-radius: 0.5rem;
+    font-family: var(--primary-font);
     background: rgba(255, 255, 255, 0.1);
     text-align: left;
-    padding: 12px 20px 12px 20px;
-    border-right: 12px solid transparent;
+    padding: 0.75rem 1.25rem 0.75rem 1.25rem;
+    border-right: 0.75rem solid transparent;
 }
 
 /* Team member container */
@@ -400,130 +413,130 @@ td {
 
 .team-heading {
     color: rgb(255, 255, 255);
-    font-size: 48px;
+    font-size: 3.0rem;
     font-weight: 900;
-    margin-top: 88px;
-    margin-bottom: 14px;
+    margin-top: 5.5rem;
+    margin-bottom: 0.875rem;
 }
 
 .team-description {
     color: rgba(255, 255, 255, 0.5);
-    font-size: 14px;
+    font-size: 0.875rem;
     font-weight: 400;
-    margin-bottom: 58px;
+    margin-bottom: 3.625rem;
 
 }
 
 .team-member-container {
-    width: 1020px;
-    height: 570px;
+    width: 63.75rem;
+    height: 35.625rem;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    border-radius: 18px;
+    border-radius: 1.125rem;
     background: rgba(255, 255, 255, 0.1);
-    padding: 20px;
-    margin: 0px auto;
-    gap: 20px;
+    padding: 1.25rem;
+    margin: 0.0rem auto;
+    gap: 1.25rem;
 }
 
 .team-member {
     background-repeat: no-repeat;
-    width: 326px;
-    height: 272px;
+    width: 20.375rem;
+    height: 17.0rem;
     background-size: cover;
-    border-radius: 18px;
+    border-radius: 1.125rem;
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
     align-items: flex-start;
-    margin: 0px auto;
+    margin: 0.0rem auto;
 }
 
 .team-member h5 {
-    margin-bottom: 0px;
-    margin-left: 20px;
-    font-size: 20px;
+    margin-bottom: 0.0rem;
+    margin-left: 1.25rem;
+    font-size: 1.25rem;
 }
 
 .team-member p {
-    margin-bottom: 20px;
-    margin-left: 20px;
-    margin-top: 4px;
-    font-size: 14px;
+    margin-bottom: 1.25rem;
+    margin-left: 1.25rem;
+    margin-top: 0.25rem;
+    font-size: 0.875rem;
     color: rgba(255, 255, 255, 0.5);
 }
 
 /* Footer Section Style */
 .footer-section {
-    width: 1500px;
-    height: 480px;
+    width: 93.75rem;
+    height: 30.0rem;
     background: rgba(255, 255, 255, 0.1);
 }
 
 .footer-container {
     display: flex;
     justify-content: space-evenly;
-    margin-top: 66px;
-    padding-top: 66px;
+    margin-top: 4.125rem;
+    padding-top: 4.125rem;
 }
 
 .brand-2 {
     color: rgb(230, 83, 60);
-    font-size: 70px;
+    font-size: 4.375rem;
     font-weight: 800;
     text-align: left;
-    margin-top: 0px;
-    margin-bottom: 20px;
+    margin-top: 0.0rem;
+    margin-bottom: 1.25rem;
+    font-style: italic;
 }
 
 .brand-description {
     color: rgba(255, 255, 255, 0.5);
-    font-size: 14px;
+    font-size: 0.875rem;
     font-weight: 400;
-    line-height: 24px;
-    letter-spacing: 0.3px;
+    line-height: 1.5rem;
+    letter-spacing: 0.01875rem;
     text-align: left;
 }
 
 .fitness-footer {
-    width: 443px;
-    height: 176px;
-
+    width: 27.6875rem;
+    height: 11.0rem;
 }
 
 .get-started {
-    width: 181px;
-    height: 249px;
+    width: 11.3125rem;
+    height: 15.5625rem;
 }
 
 .get-started-heading {
     color: rgb(255, 255, 255);
-    font-size: 32px;
+    font-size: 2.0rem;
     font-weight: 700;
     text-align: left;
-    margin-top: 0px;
+    margin-top: 0.0rem;
 }
 
 .get-started p {
     color: rgba(255, 255, 255, 0.5);
-    font-size: 23px;
+    font-size: 1.4375rem;
     font-weight: 400;
     text-align: left;
-    margin-top: 10px;
-    margin-bottom: 0px;
+    margin-top: 0.625rem;
+    margin-bottom: 0.0rem;
 }
 
 hr {
-    margin-top: 50px;
-    margin-bottom: 36px;
-    margin-left: 168px;
-    margin-right: 170px;
-    border: 2px solid rgba(255, 255, 255, 0.1);
+    margin-top: 3.125rem;
+    margin-bottom: 2.25rem;
+    margin-left: 10.5rem;
+    margin-right: 10.625rem;
+    border: 0.125rem solid rgba(255, 255, 255, 0.1);
 }
 
 .copy-right {
     color: rgba(255, 255, 255, 0.5);
-    font-size: 20px;
+    font-size: 1.25rem;
     font-weight: 400;
     text-align: center;
 }
