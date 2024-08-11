@@ -302,9 +302,8 @@ body {
 }
 
 .bmi-container {
-    border: 1px solid #ccc;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     width: 1500px;
     height: 487px;
     background-color: rgb(34, 34, 34);
@@ -317,7 +316,6 @@ body {
     text-align: left;
     margin-top: 52px;
     margin-bottom: 52px;
-    margin-left: 187px;
 }
 
 .bmi-chart table {
@@ -325,7 +323,6 @@ body {
     width: 310px;
     height: 216px;
     border-collapse: collapse;
-    margin-left: 187px;
 }
 
 .bmi-chart tr,
@@ -336,34 +333,63 @@ td {
     text-align: left;
 }
 
-.bmi-calculator form {
+.form-container {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(2,1fr);
+    gap: 12px;
+    margin-bottom: 34px;
 }
 
-.bmi-calculator form input,
-.sex-selection {
-    width: 282.5px;
-    height: 48px;
-    padding: 12px 40px 12px 20px;
-    border: none;
-    border-radius: 8px;
-    margin: 0px 12px;
-    background: rgba(255, 255, 255, 0.1);
+.bmi-calculator h1 {
+    color: rgb(255, 255, 255);
+    font-size: 28px;
+    font-weight: 900;
+    text-align: left;
+    margin-top: 49px;
+}
 
+.bmi-calculator p {
+    width: 577px;
+    height: 48px;
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.3px;
+    text-align: left;
+    margin-bottom: 34px;
 }
 
 .activity-selector {
     width: 577px;
     height: 48px;
-    padding: 12px 20px 12px 20px;
     border: none;
     color: rgba(255, 255, 255, 0.6);
     font-size: 16px;
     font-weight: 400;
     border-radius: 8px;
     background: rgba(255, 255, 255, 0.1);
-    appearance: none;
+    text-align: left;
+    padding: 12px 20px 12px 20px;
+    border-right: 12px solid transparent;
+    grid-column: span 2;
+}
+
+::placeholder {
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.sex-selection,
+.input-form {
+    border: none;
+    color: rgba(255, 255, 255, 0.6);
+    font-size: 16px;
+    font-weight: 400;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.1);
+    text-align: left;
+    padding: 12px 20px 12px 20px;
+    border-right: 12px solid transparent;
 }
 
 /* Team member container */
@@ -462,7 +488,7 @@ td {
 .fitness-footer {
     width: 443px;
     height: 176px;
-    
+
 }
 
 .get-started {
