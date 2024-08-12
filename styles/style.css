@@ -157,6 +157,87 @@ body {
     height: 36.25rem;
 }
 
+.tutorial-btn {
+    width: 12.875rem;
+    height: 6rem;
+    display: flex;
+    padding: 1.25rem;
+    gap: 15px;
+    color: rgba(239, 237, 232, 0.65);
+    font-family: var(--primary-font);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.5px;
+    text-align: left;
+    box-sizing: border-box;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 12px;
+    backdrop-filter: blur(20px);
+    background: rgba(48, 48, 48, 0.54);
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    left: -6.875rem;
+    top: -10rem;
+    
+}
+
+.play {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    background-color: rgb(230, 83, 60);
+}
+
+.btn-text {
+    text-align: left;
+}
+
+.tutorial {
+    color: rgb(250, 250, 249);
+    font-family: var(--primary-font);
+    font-size: 24px;
+    font-weight: 900;
+    line-height: 24px;
+    letter-spacing: 0.3px;
+    text-align: left;
+}
+
+.workout-btn {
+    width: 12.0625rem;
+    height: 6.125rem;
+    padding: 1.25rem;
+    text-align: left;
+    box-sizing: border-box;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 12px;
+    backdrop-filter: blur(20px);
+    background: rgba(48, 48, 48, 0.54);
+    justify-content: center;
+    align-items: center;
+    color: rgba(255, 255, 255, 0.65);
+    font-family: var(--primary-font);
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 1px;
+    text-align: left;
+    position: relative;
+    left: 13.125rem;
+    top: -35rem;
+}
+
+.videos {
+    color: rgb(250, 250, 249);
+    font-family: var(--primary-font);
+    font-size: 40px;
+    font-weight: 900;
+    line-height: 24px;
+    letter-spacing: 0.3px;
+    text-align: left;
+}
+
 /* Change Habit Section Style */
 
 .change-habit {
