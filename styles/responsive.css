@@ -1,3 +1,266 @@
-@media  (min-width: 576px) {
-    
+@media (max-width: 576px) {
+
+    /* Hide navbar links */
+    .nav-links {
+        display: none;
+    }
+
+    /* Align .brand to the left and remove left margin */
+    .brand {
+        text-align: left;
+        margin-left: 0;
+        font-size: 3rem;
+    }
+
+    /* Ensure buttons are displayed in a row */
+    .btn-container {
+        flex-direction: row;
+        justify-content: space-between;
+        width: 100%;
+    }
+
+    .btn-primary,
+    .btn-secondary {
+        width: auto;
+        margin-bottom: 0;
+    }
+
+    .btn-adjustment {
+        margin-left: 4.9rem;
+        margin-top: 2rem;
+    }
+    /* Adjust .habit-goal flex direction to column */
+    .habit-goal {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    /* Other styles for responsive design */
+    .banner-container {
+        width: 100%;
+        height: auto;
+    }
+
+    .nav-container {
+        flex-direction: column;
+        padding: 1rem;
+        align-items: flex-start;
+    }
+
+    #home {
+        width: 80%;
+        height: auto;
+        padding: 1rem;
+    }
+
+    .banner-text-container {
+        width: 100%;
+        height: auto;
+        margin-left: 0;
+    }
+
+    .banner-heading {
+        font-size: 2.5rem;
+        width: 285px;
+        height: auto;
+        padding: 1.5rem;
+    }
+
+    .banner-description {
+        font-size: 1rem;
+        line-height: 1.5rem;
+        margin-top: 1rem;
+        width: 274px;
+        height: 96px;
+        padding: 1.5rem;
+    }
+
+    .btn-container {
+        display: flex;
+        flex-direction: row;
+        padding: 1.5rem;
+    }
+
+    .btn-primary,
+    .btn-secondary {
+        width: 60%;
+        margin-bottom: 1rem;
+        font-size: 1rem;
+        padding: 1rem;
+    }
+
+    .banner-information {
+        flex-direction: column;
+        gap: 2rem;
+    }
+
+    .tutorial-btn {
+        position: relative;
+        left: 20px;
+        top: -390px;
+    }
+
+    .workout-btn {
+        position: relative;
+        left: 230px;
+        top: -740px;
+    }
+
+    .banner-information img {
+        width: 100%;
+        height: auto;
+        margin-top: 0;
+    }
+
+    .change-habit {
+        margin-top: 2rem;
+    }
+
+    .habit-heading {
+        font-size: 2rem;
+        text-align: center;
+        padding-left: 1rem;
+    }
+
+    .habit-description {
+        width: 100%;
+        font-size: 1rem;
+        text-align: center;
+        padding-left: 1rem;
+    }
+
+    .habit-type-container {
+        width: 100%;
+        margin-bottom: 2rem;
+    }
+
+    .running-motivation {
+        flex-direction: column;
+        width: 100%;
+        height: auto;
+        margin: 2rem 0;
+        padding: 2rem;
+    }
+
+    .running-motivation-text {
+        width: 100%;
+        margin: 1rem 0;
+    }
+
+    .running-motivation-text h1 {
+        font-size: 2rem;
+    }
+
+    .running-motivation-text p {
+        font-size: 1rem;
+        text-wrap: wrap;
+    }
+
+    .running-image-container img {
+        width: 100%;
+        height: auto;
+    }
+
+    .bmi-calculator p {
+        width: 346px;
+        height: 72px;
+    }
+
+    .bmi-container {
+        flex-direction: column;
+        width: 100%;
+        height: auto;
+        padding: 2rem;
+    }
+
+    .bmi-text-container {
+        width: 100%;
+        text-align: center;
+    }
+
+    .bmi-heading {
+        font-size: 2rem;
+        text-align: left;
+        padding: 1.5rem;
+    }
+
+    .bmi-description {
+        font-size: 1rem;
+        text-align: left;
+        padding: 1.5rem;
+    }
+
+    .form-container {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .input-form {
+        width: 9.625rem;
+    }
+
+    .sex-selection {
+        width: 12.730rem;
+    }
+
+    .activity-selector {
+        width: 26.425rem;
+    }
+
+    /* Team Member Section */
+    .team-member-container {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 1rem;
+        width: 100%;
+        height: auto;
+        padding: 0;
+    }
+
+    .team-member-container>.team-member:nth-child(1),
+    .team-member-container>.team-member:nth-child(4) {
+        display: none;
+    }
+
+    .footer-section {
+        width: 100%;
+        padding: 2rem;
+        height: auto;
+        padding: 0;
+    }
+
+    .footer-container {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .brand-2 {
+        font-size: 2rem;
+        text-align: left;
+        padding-left: 1.5rem;
+    }
+
+    .get-started {
+        padding-left: 1.5rem;
+    }
+
+    .brand-description {
+        text-align: left;
+        padding-left: 1.5rem;
+        width: 317px;
+    }
+
+    hr {
+        display: flex;
+        align-items: flex-start;
+        width: 354px;
+        margin-left: 1.5rem;
+    }
+
+    .copy-right {
+        font-size: 1rem;
+        text-align: left;
+        padding-left: 1.5rem;
+    }
 }

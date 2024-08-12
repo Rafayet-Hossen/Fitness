@@ -128,6 +128,22 @@ body {
     border: none;
 }
 
+.btn-adjustment {
+    width: 14.0rem;
+    height: 3.375rem;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 1.0rem 2.5rem 1.0rem 2.5rem;
+    border-radius: 2.625rem;
+    background: rgb(230, 83, 60);
+    color: rgb(255, 255, 255);
+    font-family: var(--primary-font);
+    font-size: 1.125rem;
+    font-weight: 600;
+    text-align: center;
+    border: none;
+}
+
 .btn-secondary {
     width: 14.0rem;
     height: 3.375rem;
@@ -180,7 +196,7 @@ body {
     position: relative;
     left: -6.875rem;
     top: -10rem;
-    
+
 }
 
 .play {
