@@ -10,6 +10,7 @@
         text-align: left;
         margin-left: 0;
         font-size: 3rem;
+        margin-right: auto;
     }
 
     /* Ensure buttons are displayed in a row */
@@ -29,6 +30,7 @@
         margin-left: 4.9rem;
         margin-top: 2rem;
     }
+
     /* Adjust .habit-goal flex direction to column */
     .habit-goal {
         display: flex;
@@ -46,6 +48,20 @@
         flex-direction: column;
         padding: 1rem;
         align-items: flex-start;
+    }
+
+    .nav-links {
+        display: none;
+    }
+
+    .hamburger-menu {
+        display: flex;
+        align-items: center;
+        position: absolute;
+        top: 10%;
+        right: 1rem;
+        transform: translateY(-50%);
+        
     }
 
     #home {

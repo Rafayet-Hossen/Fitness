@@ -4,7 +4,7 @@
 
 :root {
     --primary-font: "Inter", sans-serif;
-    --secondary-font:'Miama', sans-serif;
+    --secondary-font: 'Miama', sans-serif;
 }
 
 .display-flex {
@@ -71,6 +71,20 @@ body {
     border: 0.0625rem solid rgba(255, 255, 255, 0.1);
     border-radius: 2.4375rem;
     box-sizing: border-box;
+}
+
+.hamburger-menu {
+    display: none;
+    flex-direction: column;
+    cursor: pointer;
+    gap: 0.3rem;
+}
+
+.hamburger-menu span {
+    width: 25px;
+    height: 3px;
+    background-color: #f8f8f8;
+    border-radius: 2px;
 }
 
 /* Banner Style */
